@@ -1,0 +1,5164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /*main page*/
+
+.navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 30px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+
+.search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+
+.search-bar button img{
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+.search-bar button{
+  border: 0;
+  border-radius: 50%;
+  width:80px;
+  height: 20px;
+  background: none;
+}
+
+
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#home::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../images/lisabg.jpg) no-repeat center center/cover;
+  height: 650px;
+  width: 100%;
+  z-index: -1;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 2%;
+}
+
+.headings{
+  font-size: 2.8rem;
+}
+
+
+/*profile*/
+
+body{
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.profile-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 30px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.profile-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+.profile-search-bar button img{
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+.profile-search-bar button{
+  border: 0;
+  border-radius: 50%;
+  width:80px;
+  height: 20px;
+  background: none;
+}
+
+.profile-search-bar{
+float: right;
+}
+
+.profile-billing{
+  background-color: white;
+position: absolute;
+top: 20%;
+left: 1%;
+width: 500px;
+height: 350px;
+border-radius: 3%;
+border: 1px solid purple;
+}
+
+.profile-billing a{
+  color: black;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+font-size: 20px;
+}
+
+.profile-def{
+    display: block;
+    text-align:
+    color: gray;
+  position: absolute;
+  top: 27%;
+  font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.profile-def a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+}
+
+.profile-mark{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 33%;
+font-size: 20px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+font-weight: bold;
+}
+
+.profile-mark a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+}
+
+.profile-str{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 37%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.profile-str a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  position: absolute;
+  top: 48%;
+  left: 3%
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+td img{
+  width: 30px;
+  height: 30px;
+}
+
+
+/*jennie*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jeni-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.jeni-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jeni-search-container input img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.jeni-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+
+}
+
+
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.jeni-navbar a:hover{
+  color: pink;
+}
+
+#jeni-flip{
+display: flex;
+flex-direction: column;
+}
+
+#jeni-top{
+  display: flex;
+}
+
+#jeni-top img{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.jeni-head h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  color: white;
+}
+
+.jeni-small a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.jeni-buy a{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.jeni-btn{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-weight: bold;
+}
+
+
+#jeni-ultra{
+display: flex;
+flex-direction: column;
+}
+
+#jeni-left{
+  display: flex;
+}
+
+#jeni-left img{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 3%;
+}
+
+.jeni-s22 h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83%;
+  left: 6%;
+  color: white;
+}
+
+.jeni-tiny a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 87%;
+  left: 3%;
+  color: white;
+  font-weight: lighter;
+}
+
+.jeni-now a{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 7%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.jeni-btt{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 7%;
+  font-weight: bold;
+}
+
+#jeni-butterfly{
+display: flex;
+flex-direction: column;
+}
+
+#jeni-right{
+  display: flex;
+}
+
+#jeni-right img{
+  width:200px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  background: none;
+}
+
+.jeni-Fold h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83%;
+  left: 33%;
+  color: white;
+}
+
+.jeni-f4 a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 87%;
+  left: 29%;
+  color: white;
+  font-weight: lighter;
+}
+
+.jeni-click a{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 35%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.jeni-bto{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 35%;
+  font-weight: bold;
+}
+
+#jeni-buttons{
+display: flex;
+flex-direction: column;
+}
+
+#jeni-green{
+  display: flex;
+}
+
+#jeni-green img{
+  width:200px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  background: none;
+}
+
+.jeni-Fold h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83%;
+  left: 33%;
+  color: white;
+}
+
+.jeni-f4 a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 87%;
+  left: 29%;
+  color: white;
+  font-weight: lighter;
+}
+
+.jeni-bto{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 35%;
+  font-weight: bold;
+}
+
+.jeni-green{
+  float: left;
+  padding: 30px 30px;
+}
+
+.jeni-green input img{
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+
+
+.jeni-green input{
+  border: 0;
+  border-radius: 50%;
+  width:17px;
+  height: 17px;
+  background: none;
+  position: absolute;
+  top: 83%;
+  left: 17%;
+
+}
+
+.jeni-pink{
+  float: left;
+  padding: 30px 30px;
+}
+
+.jeni-pink img{
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+
+
+.jeni-pink input{
+  border: 0;
+  border-radius: 50%;
+  width:17px;
+  height: 17px;
+  background: none;
+  position: absolute;
+  top: 83%;
+  left: 19%;
+}
+
+/*jisoo*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.jisoo-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.jisoo-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jisoo-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.jisoo-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+
+}
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.jisoo-navbar a:hover{
+  color: pink;
+}
+
+#jisoo-flip{
+display: flex;
+flex-direction: column;
+}
+
+#jisoo-top{
+  display: flex;
+}
+
+#jisoo-top img{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.jisoo-head h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  color: white;
+}
+
+.jisoo-small a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+
+.jisoo-buy a{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.jisoo-btn{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-weight: bold;
+}
+
+#jisoo-ultra{
+display: flex;
+flex-direction: column;
+}
+
+#jisoo-left{
+  display: flex;
+}
+
+#jisoo-left img{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 3%;
+}
+
+.jisoo-s22 h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83%;
+  left: 6%;
+  color: white;
+}
+
+.jisoo-tiny a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 87%;
+  left: 3%;
+  color: white;
+  font-weight: lighter;
+}
+
+.jisoo-now a{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 7%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+#jisoo-butterfly{
+display: flex;
+flex-direction: column;
+}
+
+#jisoo-right{
+  display: flex;
+}
+
+#jisoo-right img{
+  width:200px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  background: none;
+}
+
+.jisoo-Fold h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83%;
+  left: 33%;
+  color: white;
+}
+
+.jisoo-f4 a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 87%;
+  left: 29%;
+  color: white;
+  font-weight: lighter;
+}
+
+.jisoo-click a{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 35%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.jisoo-bto{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 35%;
+  font-weight: bold;
+}
+
+
+.jisoo-pink{
+  float: left;
+  padding: 30px 30px;
+}
+
+.jisoo-pink input img{
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+
+
+.jisoo-pink input{
+  border: 0;
+  border-radius: 50%;
+  width:17px;
+  height: 17px;
+  background: none;
+  position: absolute;
+  top: 83%;
+  left: 17%;
+
+}
+
+.jisoo-blue{
+  float: left;
+  padding: 30px 30px;
+}
+
+.jisoo-blue img{
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+
+
+.jisoo-blue input{
+  border: 0;
+  border-radius: 50%;
+  width:17px;
+  height: 17px;
+  background: none;
+  position: absolute;
+  top: 83%;
+  left: 19%;
+}
+
+/*rose*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.rose-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.rose-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rose-search-container input img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.rose-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+
+}
+
+.rose-search-bar{
+float: right;
+}
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.rose-navbar a:hover{
+  color: pink;
+}
+
+#rose-flip{
+display: flex;
+flex-direction: column;
+}
+
+#rose-top{
+  display: flex;
+}
+
+#rose-top img{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.rose-head h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  color: white;
+}
+
+.rose-small a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.rose-buy a{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.rose-btn{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-weight: bold;
+}
+
+#rose-ultra{
+display: flex;
+flex-direction: column;
+}
+
+#rose-left{
+  display: flex;
+}
+
+#rose-left img{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 3%;
+}
+
+.rose-s22 h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83%;
+  left: 6%;
+  color: white;
+}
+
+.rose-tiny a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 87%;
+  left: 3%;
+  color: white;
+  font-weight: lighter;
+}
+
+.rose-now a{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 7%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+
+.rose-btt{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 7%;
+  font-weight: bold;
+}
+
+#rose-butterfly{
+display: flex;
+flex-direction: column;
+}
+
+#rose-right{
+  display: flex;
+}
+
+#rose-right img{
+  width:200px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  background: none;
+}
+
+.rose-Fold h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83%;
+  left: 33%;
+  color: white;
+}
+
+.rose-f4 a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 87%;
+  left: 29%;
+  color: white;
+  font-weight: lighter;
+}
+
+.rose-click a{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 35%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+
+.rose-bto{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 35%;
+  font-weight: bold;
+}
+
+#rose-buttons{
+display: flex;
+flex-direction: column;
+}
+
+#rose-green{
+  display: flex;
+}
+
+#rose-green img{
+  width:200px;
+  height: 150px;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  background: none;
+}
+
+.rose-Fold h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83%;
+  left: 33%;
+  color: white;
+}
+
+.rose-f4 a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 87%;
+  left: 29%;
+  color: white;
+  font-weight: lighter;
+}
+
+.rose-bto{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 91%;
+  left: 35%;
+  font-weight: bold;
+}
+
+.rose-green{
+  float: left;
+  padding: 30px 30px;
+}
+
+.rose-green input img{
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+
+
+.rose-green input{
+  border: 0;
+  border-radius: 50%;
+  width:17px;
+  height: 17px;
+  background: none;
+  position: absolute;
+  top: 83%;
+  left: 17%;
+
+}
+
+.rose-white{
+  float: left;
+  padding: 30px 30px;
+}
+
+.rose-white img{
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+
+
+.rose-white input{
+  border: 0;
+  border-radius: 50%;
+  width:17px;
+  height: 17px;
+  background: none;
+  position: absolute;
+  top: 83%;
+  left: 19%;
+}
+
+/*realme*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.realme-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.realme-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.realme-search-container input img{
+  border-radius: 50%;
+}
+
+
+.realme-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+}
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.realme-navbar a:hover{
+  color: yellow;
+}
+
+#realme-flip{
+display: flex;
+flex-direction: column;
+}
+
+#realme-top{
+  display: flex;
+}
+
+#realme-top img{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 28%;
+  left: 32%;
+}
+
+.realme-head h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 52%;
+  left: 33%;
+  color: white;
+}
+
+.realme-small a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 57%;
+  left: 31%;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+
+.realme-btn{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 61%;
+  left: 34%;
+  font-weight: bold;
+}
+
+#realme-ultra{
+display: flex;
+flex-direction: column;
+}
+
+#realme-left{
+  display: flex;
+}
+
+#realme-left img{
+  width: 200px;
+  height: 170px;
+  position: absolute;
+  top: 26%;
+  left: 50%;
+}
+
+.realme-s22 h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top:52%;
+  left: 53%;
+  color: white;
+}
+
+.realme-tiny a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  color: white;
+  font-weight: lighter;
+}
+
+.realme-btt{
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid purple;
+  color: white;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 61%;
+  left: 54%;
+  font-weight: bold;
+}
+
+/*xiaomi*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.xiaomi-navbar a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.xiaomi-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.xiaomi-search-container input img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.xiaomi-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+
+}
+
+.xiaomi-search-bar{
+float: right;
+}
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.xiaomi-navbar a:hover{
+  color: orange;
+}
+
+#xiaomi-ultra{
+display: flex;
+flex-direction: column;
+}
+
+#xiaomi-left{
+  display: flex;
+}
+
+#xiaomi-left img{
+  width: 150px;
+  height: 170px;
+  position: absolute;
+  top: 65%;
+  left: 40%;
+}
+
+
+#xiaomi-butterfly{
+display: flex;
+flex-direction: column;
+}
+
+#xiaomi-right{
+  display: flex;
+}
+
+#xiaomi-right img{
+  width:400px;
+  height: 300px;
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  background: none;
+}
+
+.xiaomi-Fold h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 80%;
+  left: 8%;
+  color: black;
+}
+
+.xiaomi-f4 a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 84%;
+  left: 6%;
+  color: black;
+  font-weight: lighter;
+}
+
+.xiaomi-btt {
+  padding: 5px 10px;
+border-radius: 20%;
+  background-color: transparent;
+  border: 1px solid black;
+  color: orange;
+  background-color: black;
+  outline:none;
+  transition: .6s ease;
+  position: absolute;
+  top: 89%;
+  left: 11%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+/*jenniebilling*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ultra-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.ultra-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ultra-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.ultra-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+}
+
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.ultra-navbar a:hover{
+  color: pink;
+}
+
+#ultra-flip{
+display: flex;
+flex-direction: column;
+}
+
+#ultra-top{
+  display: flex;
+}
+
+#ultra-top img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20%;
+  left: 6%;
+}
+
+.ultra-head h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 26%;
+  left: 18%;
+  color: white;
+}
+
+.ultra-small a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 31%;
+  left: 18%;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.ultra-ram a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 45%;
+  left: 18%;
+  color: pink;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.ultra-billing{
+  background-color: white;
+position: absolute;
+top: 50%;
+left: 1%;
+width:650px;
+height: 300px;
+border-radius: 3%;
+border: 1px solid purple;
+}
+
+.ultra-billing h2{
+  color: black;
+  position: absolute;
+  top: 3%;
+  left: 36%;
+}
+
+.ultra-name{
+position: absolute;
+top: 57%;
+left: 3%;
+color: black;
+font-size: 17px;
+}
+
+.ultra-number{
+position: absolute;
+top: 67%;
+left: 3%;
+color: black;
+font-size: 17px;
+}
+
+.ultra-province{
+position: absolute;
+top: 57%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.ultra-city{
+position: absolute;
+top: 67%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.ultra-barangay{
+position: absolute;
+top: 77%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.ultra-color input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 77%;
+  left: 5%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.ultra-hm input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 77%;
+  left: 14%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.ultra-deliv{
+  background-color: white;
+position: absolute;
+top: 82%;
+left: 6%;
+width:150px;
+height:60px;
+border-radius: 8%;
+border: 1px solid skyblue;
+}
+
+.ultra-deliv img{
+  height: 13px;
+  width: 13px;
+}
+
+.ultra-deliv a{
+  font-size: 11px;
+}
+
+
+
+.ultra-buy a{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 93%;
+  left: 23%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.ultra-buy a:hover{
+  background-color: pink;
+  border-color: red;
+}
+
+.ultra-cancel a{
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  top: 93%;
+  left: 15%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.ultra-cancel a:hover{
+  background-color: pink;
+  border-color: red;
+}
+
+.ultra-hm input:hover{
+  background-color: pink;
+}
+
+.ultra-color input:hover{
+  background-color: pink;
+}
+
+.ultra-bg{
+position: absolute;
+top: 86%;
+left: 36%;
+width: 152px;
+height: 70px;
+border: 1px solid gray;
+}
+
+.ultra-cash{
+position: absolute;
+top: 87%;
+left: 36.5%;
+width: 136px;
+height: 16px;
+border: 1px solid gray;
+font-size: 12px;
+  text-decoration: none;
+}
+
+.ultra-cash a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+.ultra-pay {
+position: absolute;
+top: 89.5%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+}
+
+.ultra-visa a{
+position: absolute;
+top: 92%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.ultra-card a{
+position: absolute;
+top: 94%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.ultra-visa img{
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  right: 4%;
+}
+
+/*jeniultraorder*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jenior-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.jenior-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jenior-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.jenior-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+
+}
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.jenior-navbar a:hover{
+  color: pink;
+}
+
+
+.jenior-billing{
+  background-color: white;
+position: absolute;
+top: 30%;
+left: 5%;
+width:550px;
+height: 100px;
+background-color: lightgreen;
+border: 1px solid purple;
+display: block;
+text-align: center;
+}
+
+.jenior-billing h2{
+  display: block;
+}
+
+.jenior-delivery a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 36%;
+left: 7%;
+font-size: 18px;
+}
+
+.jenior-notif{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 46%;
+left: 5%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 100px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.jenior-notif a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top:0;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+margin: 10px 0px 0px 40px;
+}
+
+.jenior-notif img{
+  padding: 5px 5px;
+  width:80px;
+  height: 80px;
+}
+
+.jenior-ship{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 60%;
+left: 5%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 200px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.jenior-ship a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 5%;
+left: 12%;
+font-size: 20px;
+display: block;
+text-decoration: none;
+color: black;
+}
+
+
+.jenior-ship img{
+  padding: 5px 5px;
+  width:50px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.jenior-h{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 65%;
+left: 5%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-h a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-parcel{
+  display: block;
+  text-align:
+  color: green;
+position: absolute;
+top: 72%;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-parcel a{
+  display: block;
+  position: absolute;
+  color: lightgreen;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-parcel img{
+  padding: 5px 5px;
+  width:40px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+.jenior-date{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 75%;
+left: 5%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-date a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-address{
+  display: block;
+  text-align:
+  color: black;
+position: absolute;
+top: 78%;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-address a{
+  display: block;
+  position: absolute;
+  color: black;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-address img{
+  padding: 5px 5px;
+  width:70px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.jenior-place{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 81%;
+left: 5%;
+font-size: 10px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-place a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+/*jeniflipbilling*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flip-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.flip-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flip-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.flip-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+}
+
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.flip-navbar a:hover{
+  color: pink;
+}
+
+#flip-flip{
+display: flex;
+flex-direction: column;
+}
+
+#flip-top{
+  display: flex;
+}
+
+#flip-top img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20%;
+  left: 6%;
+}
+
+.flip-head h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 26%;
+  left: 18%;
+  color: white;
+}
+
+.flip-small a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 31%;
+  left: 18%;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.flip-ram a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 45%;
+  left: 18%;
+  color: pink;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.flip-billing{
+  background-color: white;
+position: absolute;
+top: 50%;
+left: 1%;
+width:650px;
+height: 300px;
+border-radius: 3%;
+border: 1px solid purple;
+}
+
+.flip-billing h2{
+  color: black;
+  position: absolute;
+  top: 3%;
+  left: 36%;
+}
+
+.flip-name{
+position: absolute;
+top: 57%;
+left: 3%;
+color: black;
+font-size: 17px;
+}
+
+.flip-number{
+position: absolute;
+top: 67%;
+left: 3%;
+color: black;
+font-size: 17px;
+}
+
+.flip-province{
+position: absolute;
+top: 57%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.flip-city{
+position: absolute;
+top: 67%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.flip-barangay{
+position: absolute;
+top: 77%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.flip-color input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 77%;
+  left: 5%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.flip-hm input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 77%;
+  left: 14%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.flip-deliv{
+  background-color: white;
+position: absolute;
+top: 82%;
+left: 6%;
+width:150px;
+height:60px;
+border-radius: 8%;
+border: 1px solid skyblue;
+}
+
+.flip-deliv img{
+  height: 13px;
+  width: 13px;
+}
+
+.flip-deliv a{
+  font-size: 11px;
+}
+
+
+
+.flip-buy a{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 93%;
+  left: 23%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.flip-buy a:hover{
+  background-color: pink;
+  border-color: red;
+}
+
+.flip-cancel a{
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  top: 93%;
+  left: 15%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.flip-cancel a:hover{
+  background-color: pink;
+  border-color: red;
+}
+
+.flip-hm input:hover{
+  background-color: pink;
+}
+
+.flip-color input:hover{
+  background-color: pink;
+}
+
+.flip-bg{
+position: absolute;
+top: 86%;
+left: 36%;
+width: 152px;
+height: 70px;
+border: 1px solid gray;
+}
+
+.flip-cash{
+position: absolute;
+top: 87%;
+left: 36.5%;
+width: 136px;
+height: 16px;
+border: 1px solid gray;
+font-size: 12px;
+  text-decoration: none;
+}
+
+.flip-cash a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+.flip-pay {
+position: absolute;
+top: 89.5%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+}
+
+.flip-visa a{
+position: absolute;
+top: 92%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.flip-card a{
+position: absolute;
+top: 94%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.flip-visa img{
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  right: 4%;
+}
+
+
+/*jisooultraorder*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jenior-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.jenior-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jenior-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.jenior-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+
+}
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.jenior-navbar a:hover{
+  color: pink;
+}
+
+
+.jenior-billing{
+  background-color: white;
+position: absolute;
+top: 30%;
+left: 5%;
+width:550px;
+height: 100px;
+background-color: lightgreen;
+border: 1px solid purple;
+display: block;
+text-align: center;
+}
+
+.jenior-billing h2{
+  display: block;
+}
+
+.jenior-delivery a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 36%;
+left: 7%;
+font-size: 18px;
+}
+
+.jenior-notif{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 46%;
+left: 5%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 100px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.jenior-notif a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top:0;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+margin: 10px 0px 0px 40px;
+}
+
+.jenior-notif img{
+  padding: 5px 5px;
+  width:80px;
+  height: 80px;
+}
+
+.jenior-ship{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 60%;
+left: 5%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 200px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.jenior-ship a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 5%;
+left: 12%;
+font-size: 20px;
+display: block;
+text-decoration: none;
+color: black;
+}
+
+
+.jenior-ship img{
+  padding: 5px 5px;
+  width:50px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.jenior-h{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 65%;
+left: 5%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-h a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-parcel{
+  display: block;
+  text-align:
+  color: green;
+position: absolute;
+top: 72%;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-parcel a{
+  display: block;
+  position: absolute;
+  color: lightgreen;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-parcel img{
+  padding: 5px 5px;
+  width:40px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+.jenior-date{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 75%;
+left: 5%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-date a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-address{
+  display: block;
+  text-align:
+  color: black;
+position: absolute;
+top: 78%;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-address a{
+  display: block;
+  position: absolute;
+  color: black;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-address img{
+  padding: 5px 5px;
+  width:70px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.jenior-place{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 81%;
+left: 5%;
+font-size: 10px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-place a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+
+/*jisooflipbilling*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flip-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.flip-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flip-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.flip-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+}
+
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.flip-navbar a:hover{
+  color: pink;
+}
+
+#flip-flip{
+display: flex;
+flex-direction: column;
+}
+
+#flip-top{
+  display: flex;
+}
+
+#flip-top img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20%;
+  left: 6%;
+}
+
+.flip-head h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 26%;
+  left: 18%;
+  color: white;
+}
+
+.flip-small a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 31%;
+  left: 18%;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.flip-ram a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 45%;
+  left: 18%;
+  color: pink;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.flip-billing{
+  background-color: white;
+position: absolute;
+top: 50%;
+left: 1%;
+width:650px;
+height: 300px;
+border-radius: 3%;
+border: 1px solid purple;
+}
+
+.flip-billing h2{
+  color: black;
+  position: absolute;
+  top: 3%;
+  left: 36%;
+}
+
+.flip-name{
+position: absolute;
+top: 57%;
+left: 3%;
+color: black;
+font-size: 17px;
+}
+
+.flip-number{
+position: absolute;
+top: 67%;
+left: 3%;
+color: black;
+font-size: 17px;
+}
+
+.flip-province{
+position: absolute;
+top: 57%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.flip-city{
+position: absolute;
+top: 67%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.flip-barangay{
+position: absolute;
+top: 77%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.flip-color input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 77%;
+  left: 5%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.flip-hm input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 77%;
+  left: 14%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.flip-deliv{
+  background-color: white;
+position: absolute;
+top: 82%;
+left: 6%;
+width:150px;
+height:60px;
+border-radius: 8%;
+border: 1px solid skyblue;
+}
+
+.flip-deliv img{
+  height: 13px;
+  width: 13px;
+}
+
+.flip-deliv a{
+  font-size: 11px;
+}
+
+
+
+.flip-buy a{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 93%;
+  left: 23%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.flip-buy a:hover{
+  background-color: pink;
+  border-color: red;
+}
+
+.flip-cancel a{
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  top: 93%;
+  left: 15%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.flip-cancel a:hover{
+  background-color: pink;
+  border-color: red;
+}
+
+.flip-hm input:hover{
+  background-color: pink;
+}
+
+.flip-color input:hover{
+  background-color: pink;
+}
+
+.flip-bg{
+position: absolute;
+top: 86%;
+left: 36%;
+width: 152px;
+height: 70px;
+border: 1px solid gray;
+}
+
+.flip-cash{
+position: absolute;
+top: 87%;
+left: 36.5%;
+width: 136px;
+height: 16px;
+border: 1px solid gray;
+font-size: 12px;
+  text-decoration: none;
+}
+
+.flip-cash a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+.flip-pay {
+position: absolute;
+top: 89.5%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+}
+
+.flip-visa a{
+position: absolute;
+top: 92%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.flip-card a{
+position: absolute;
+top: 94%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.flip-visa img{
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  right: 4%;
+}
+
+
+/*jenifoldorder*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jenior-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.jenior-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jenior-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.jenior-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+
+}
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.jenior-navbar a:hover{
+  color: pink;
+}
+
+
+.jenior-billing{
+  background-color: white;
+position: absolute;
+top: 30%;
+left: 5%;
+width:550px;
+height: 100px;
+background-color: lightgreen;
+border: 1px solid purple;
+display: block;
+text-align: center;
+}
+
+.jenior-billing h2{
+  display: block;
+}
+
+.jenior-delivery a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 36%;
+left: 7%;
+font-size: 18px;
+}
+
+.jenior-notif{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 46%;
+left: 5%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 100px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.jenior-notif a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top:0;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+margin: 10px 0px 0px 40px;
+}
+
+.jenior-notif img{
+  padding: 5px 5px;
+  width:80px;
+  height: 80px;
+}
+
+.jenior-ship{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 60%;
+left: 5%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 200px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.jenior-ship a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 5%;
+left: 12%;
+font-size: 20px;
+display: block;
+text-decoration: none;
+color: black;
+}
+
+
+.jenior-ship img{
+  padding: 5px 5px;
+  width:50px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.jenior-h{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 65%;
+left: 5%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-h a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-parcel{
+  display: block;
+  text-align:
+  color: green;
+position: absolute;
+top: 72%;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-parcel a{
+  display: block;
+  position: absolute;
+  color: lightgreen;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-parcel img{
+  padding: 5px 5px;
+  width:40px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+.jenior-date{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 75%;
+left: 5%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-date a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-address{
+  display: block;
+  text-align:
+  color: black;
+position: absolute;
+top: 78%;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-address a{
+  display: block;
+  position: absolute;
+  color: black;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.jenior-address img{
+  padding: 5px 5px;
+  width:70px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.jenior-place{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 81%;
+left: 5%;
+font-size: 10px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.jenior-place a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+
+/*jisooultrabilling*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flip-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.flip-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flip-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.flip-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+}
+
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.flip-navbar a:hover{
+  color: pink;
+}
+
+#flip-flip{
+display: flex;
+flex-direction: column;
+}
+
+#flip-top{
+  display: flex;
+}
+
+#flip-top img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20%;
+  left: 6%;
+}
+
+.flip-head h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 26%;
+  left: 18%;
+  color: white;
+}
+
+.flip-small a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 31%;
+  left: 18%;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.flip-ram a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 45%;
+  left: 18%;
+  color: pink;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.flip-billing{
+  background-color: white;
+position: absolute;
+top: 50%;
+left: 1%;
+width:650px;
+height: 300px;
+border-radius: 3%;
+border: 1px solid purple;
+}
+
+.flip-billing h2{
+  color: black;
+  position: absolute;
+  top: 3%;
+  left: 36%;
+}
+
+.flip-name{
+position: absolute;
+top: 57%;
+left: 3%;
+color: black;
+font-size: 17px;
+}
+
+.flip-number{
+position: absolute;
+top: 67%;
+left: 3%;
+color: black;
+font-size: 17px;
+}
+
+.flip-province{
+position: absolute;
+top: 57%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.flip-city{
+position: absolute;
+top: 67%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.flip-barangay{
+position: absolute;
+top: 77%;
+left: 28%;
+color: black;
+font-size: 17px;
+}
+
+.flip-color input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 77%;
+  left: 5%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.flip-hm input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 77%;
+  left: 14%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.flip-deliv{
+  background-color: white;
+position: absolute;
+top: 82%;
+left: 6%;
+width:150px;
+height:60px;
+border-radius: 8%;
+border: 1px solid skyblue;
+}
+
+.flip-deliv img{
+  height: 13px;
+  width: 13px;
+}
+
+.flip-deliv a{
+  font-size: 11px;
+}
+
+
+
+.flip-buy a{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 93%;
+  left: 23%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.flip-buy a:hover{
+  background-color: pink;
+  border-color: red;
+}
+
+.flip-cancel a{
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  top: 93%;
+  left: 15%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.flip-cancel a:hover{
+  background-color: pink;
+  border-color: red;
+}
+
+.flip-hm input:hover{
+  background-color: pink;
+}
+
+.flip-color input:hover{
+  background-color: pink;
+}
+
+.flip-bg{
+position: absolute;
+top: 86%;
+left: 36%;
+width: 152px;
+height: 70px;
+border: 1px solid gray;
+}
+
+.flip-cash{
+position: absolute;
+top: 87%;
+left: 36.5%;
+width: 136px;
+height: 16px;
+border: 1px solid gray;
+font-size: 12px;
+  text-decoration: none;
+}
+
+.flip-cash a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+.flip-pay {
+position: absolute;
+top: 89.5%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+}
+
+.flip-visa a{
+position: absolute;
+top: 92%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.flip-card a{
+position: absolute;
+top: 94%;
+left: 36.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.flip-visa img{
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  right: 4%;
+}
+
+
+/*realmebilling*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.realme-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.realme-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.realme-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.realme-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+}
+
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.realme-navbar a:hover{
+  color: yellow;
+}
+
+#realme1-flip{
+display: flex;
+flex-direction: column;
+}
+
+#realme1-top{
+  display: flex;
+}
+
+#realme1-top img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 15%;
+  left: 33%;
+}
+
+.realme1-head h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 22%;
+  left:48%;
+  color: white;
+}
+
+.realme1-small a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 28%;
+  left: 48%;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+
+.realme-billing{
+  background-color: white;
+position: absolute;
+top: 50%;
+left: 26%;
+width:650px;
+height: 300px;
+border-radius: 3%;
+border: 1px solid purple;
+}
+
+.realme-billing h2{
+  color: black;
+  position: absolute;
+  top: 3%;
+  left: 36%;
+}
+
+.realme-name{
+position: absolute;
+top: 57%;
+left: 29%;
+color: black;
+font-size: 17px;
+}
+
+.realme-number{
+position: absolute;
+top: 67%;
+left: 29%;
+color: black;
+font-size: 17px;
+}
+
+.realme-province{
+position: absolute;
+top: 57%;
+left: 51%;
+color: black;
+font-size: 17px;
+}
+
+.realme-city{
+position: absolute;
+top: 67%;
+left: 51%;
+color: black;
+font-size: 17px;
+}
+
+.realme-barangay{
+position: absolute;
+top: 77%;
+left: 51%;
+color: black;
+font-size: 17px;
+}
+
+.realme-color input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 77%;
+  left: 32%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.realme-hm input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 77%;
+  left: 39%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.realme-deliv{
+  background-color: white;
+position: absolute;
+top: 82%;
+left: 34%;
+width:150px;
+height:60px;
+border-radius: 8%;
+border: 1px solid skyblue;
+}
+
+.realme-deliv img{
+  height: 13px;
+  width: 13px;
+}
+
+.realme-deliv a{
+  font-size: 11px;
+}
+
+
+
+.realme-buy a{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 93%;
+  left: 48%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.realme-buy a:hover{
+  background-color: yellow;
+  border-color: red;
+}
+
+.realme-cancel a{
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  top: 93%;
+  left: 40%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.realme-cancel a:hover{
+  background-color: yellow;
+  border-color: red;
+}
+
+.realme-hm input:hover{
+  background-color: yellow;
+}
+
+.realme-color input:hover{
+  background-color: yellow;
+}
+
+.realme-bg{
+position: absolute;
+top: 86%;
+left: 60%;
+width: 152px;
+height: 70px;
+border: 1px solid gray;
+}
+
+.realme-cash{
+position: absolute;
+top: 87%;
+left: 60.5%;
+width: 136px;
+height: 16px;
+border: 1px solid gray;
+font-size: 12px;
+  text-decoration: none;
+}
+
+.realme-cash a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+.realme-pay {
+position: absolute;
+top: 89.5%;
+left: 60.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+}
+
+.realme-visa a{
+position: absolute;
+top: 92%;
+left: 60.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.realme-card a{
+position: absolute;
+top: 94%;
+left: 60.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.realme-visa img{
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  right: 4%;
+}
+
+
+/*realmegtorder*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jenior-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.jenior-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jenior-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.jenior-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+
+}
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.jenior-navbar a:hover{
+  color: yellow;
+}
+
+
+.realme2-billing{
+  background-color: white;
+position: absolute;
+top: 30%;
+left: 28%;
+width:550px;
+height: 100px;
+background-color: lightgreen;
+border: 1px solid purple;
+display: block;
+text-align: center;
+}
+
+.realme2-billing h2{
+  display: block;
+}
+
+.realme2-delivery a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 36%;
+left: 30%;
+font-size: 18px;
+}
+
+.realme2-notif{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 46%;
+left: 28%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 100px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.realme2-notif a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top:0;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+margin: 10px 0px 0px 40px;
+}
+
+.realme2-notif img{
+  padding: 5px 5px;
+  width:80px;
+  height: 80px;
+}
+
+.realme2-ship{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 62%;
+left: 28%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 200px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.realme2-ship a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 5%;
+left: 12%;
+font-size: 20px;
+display: block;
+text-decoration: none;
+color: black;
+}
+
+
+.realme2-ship img{
+  padding: 5px 5px;
+  width:50px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.realme2-h{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 66%;
+left: 28%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.realme2-h a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.realme2-parcel{
+  display: block;
+  text-align:
+  color: green;
+position: absolute;
+top: 72%;
+left: 28%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.realme2-parcel a{
+  display: block;
+  position: absolute;
+  color: lightgreen;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.realme2-parcel img{
+  padding: 5px 5px;
+  width:40px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+.realme2-date{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 75%;
+left: 28%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.realme2-date a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.realme2-address{
+  display: block;
+  text-align:
+  color: black;
+position: absolute;
+top: 78%;
+left: 28%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.realme2-address a{
+  display: block;
+  position: absolute;
+  color: black;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.realme2-address img{
+  padding: 5px 5px;
+  width:70px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.realme2-place{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 81%;
+left: 28%;
+font-size: 10px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.realme2-place a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ultra-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.ultra-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ultra-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.ultra-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+}
+
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.xiaomi-navbar a:hover{
+  color: orange;
+}
+
+.ultra-navbar a:hover{
+  color: orange;
+}
+
+#x-flip{
+display: flex;
+flex-direction: column;
+}
+
+#x-top{
+  display: flex;
+}
+
+#x-top img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20%;
+  left: 6%;
+}
+
+.x-head h3{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 26%;
+  left: 18%;
+  color: white;
+}
+
+.x-small a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 31%;
+  left: 18%;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.x-ram a{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 45%;
+  left: 18%;
+  color: pink;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.x-billing{
+  background-color: white;
+position: absolute;
+top: 30%;
+left: 15%;
+width:650px;
+height: 300px;
+border-radius: 3%;
+border: 1px solid purple;
+}
+
+.x-billing h2{
+  color: black;
+  position: absolute;
+  top: 3%;
+  left: 36%;
+}
+
+.x-name{
+position: absolute;
+top: 37%;
+left: 18%;
+color: black;
+font-size: 17px;
+}
+
+.x-number{
+position: absolute;
+top: 47%;
+left: 18%;
+color: black;
+font-size: 17px;
+}
+
+.x-province{
+position: absolute;
+top: 37%;
+left:40%;
+color: black;
+font-size: 17px;
+}
+
+.x-city{
+position: absolute;
+top: 47%;
+left: 40%;
+color: black;
+font-size: 17px;
+}
+
+.x-barangay{
+position: absolute;
+top: 57%;
+left: 40%;
+color: black;
+font-size: 17px;
+}
+
+.x-color input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 57%;
+  left: 21%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.x-hm input{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 57%;
+  left: 28%;
+  color: black;
+  font-size: 12px;
+    border: 1px solid purple;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.x-deliv{
+  background-color: white;
+position: absolute;
+top: 62%;
+left: 22%;
+width:150px;
+height:60px;
+border-radius: 8%;
+border: 1px solid skyblue;
+}
+
+.x-deliv img{
+  height: 13px;
+  width: 13px;
+}
+
+.x-deliv a{
+  font-size: 11px;
+}
+
+
+
+.x-buy a{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  top: 73%;
+  left: 38%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.x-buy a:hover{
+  background-color: orange;
+  border-color: red;
+}
+
+.x-cancel a{
+  width: 90px;
+  height: 25px;
+  position: absolute;
+  top: 73%;
+  left: 29%;
+  color: black;
+  font-size: 18px;
+    border: 1px solid gray;
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.x-cancel a:hover{
+  background-color: orange;
+  border-color: red;
+}
+
+.x-hm input:hover{
+  background-color: orange;
+}
+
+.x-color input:hover{
+  background-color: orange;
+}
+
+.x-bg{
+position: absolute;
+top: 66%;
+left: 50%;
+width: 152px;
+height: 70px;
+border: 1px solid gray;
+}
+
+.x-cash{
+position: absolute;
+top: 67%;
+left: 50.5%;
+width: 136px;
+height: 16px;
+border: 1px solid gray;
+font-size: 12px;
+  text-decoration: none;
+}
+
+.x-cash a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+.x-pay {
+position: absolute;
+top: 69.5%;
+left: 50.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+}
+
+.x-visa a{
+position: absolute;
+top: 72%;
+left: 50.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.x-card a{
+position: absolute;
+top: 74%;
+left: 50.5%;
+width: 136px;
+height: 15px;
+border: 1px solid gray;
+font-size: 10px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.x-visa img{
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  right: 4%;
+}
+
+
+/*jenifoldorder*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.xiaomi-navbar a{
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+padding: 50px 30px;
+font-size: 23px;
+width: 180px;
+text-transform: uppercase;
+font-weight: bold;
+left: 5%;
+}
+
+.xiaomi-search-container{
+  float: right;
+  padding: 40px 40px;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.xiaomi-search-container input img{
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.xiaomi-search-container input{
+  border: 0;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  background: none;
+  margin: 10px 10px 10px 10px;
+
+}
+
+
+.main a{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+top:50%;
+left: 5%;
+color: white;
+font-size:50px;
+}
+
+.xiaomi-navbar a:hover{
+  color: orange;
+}
+
+
+.xiaomi-billing{
+  background-color: white;
+position: absolute;
+top: 30%;
+left: 15%;
+width:550px;
+height: 100px;
+background-color: lightgreen;
+border: 1px solid purple;
+display: block;
+text-align: center;
+}
+
+.xiaomi-billing h2{
+  display: block;
+}
+
+.xiaomi-delivery a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 36%;
+left: 17%;
+font-size: 18px;
+}
+
+.xiaomi-notif{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 46%;
+left: 15%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 100px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.xiaomi-notif a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top:0;
+left: 5%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+margin: 10px 0px 0px 40px;
+}
+
+.xiaomi-notif img{
+  padding: 5px 5px;
+  width:80px;
+  height: 80px;
+}
+
+.xiaomi-ship{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 60%;
+left: 15%;
+font-size: 17px;
+background-color: white;
+border: 1px solid purple;
+width:550px;
+height: 200px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+}
+
+.xiaomi-ship a{
+  display: block;
+  text-align:
+  color: white;
+position: absolute;
+top: 5%;
+left: 12%;
+font-size: 20px;
+display: block;
+text-decoration: none;
+color: black;
+}
+
+
+.xiaomi-ship img{
+  padding: 5px 5px;
+  width:50px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.xiaomi-h{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 65%;
+left: 15%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.xiaomi-h a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.xiaomi-parcel{
+  display: block;
+  text-align:
+  color: green;
+position: absolute;
+top: 72%;
+left: 15%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.xiaomi-parcel a{
+  display: block;
+  position: absolute;
+  color: lightgreen;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.xiaomi-parcel img{
+  padding: 5px 5px;
+  width:40px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+.xiaomi-date{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 75%;
+left: 15%;
+font-size: 13px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.xiaomi-date a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.xiaomi-address{
+  display: block;
+  text-align:
+  color: black;
+position: absolute;
+top: 78%;
+left: 15%;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.xiaomi-address a{
+  display: block;
+  position: absolute;
+  color: black;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
+
+.xiaomi-address img{
+  padding: 5px 5px;
+  width:70px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.xiaomi-place{
+  display: block;
+  text-align:
+  color: gray;
+position: absolute;
+top: 81%;
+left: 15%;
+font-size: 10px;
+display: block;
+text-decoration: none;
+color: black;
+text-align: justify;
+width: 50%;
+}
+
+.xiaomi-place a{
+  display: block;
+  position: absolute;
+  top:0;
+  left: 5%;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px 0px 40px;
+}
